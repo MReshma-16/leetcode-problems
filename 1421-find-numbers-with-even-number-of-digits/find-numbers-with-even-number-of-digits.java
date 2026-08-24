@@ -3,7 +3,7 @@ class Solution {
         int count=0;
         for(int i=0;i<nums.length;i++){
            int a=String.valueOf(nums[i]).length();
-            if(a%2==0){
+           if(a%2==0){
                 count++;
             }
             }
