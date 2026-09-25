@@ -12,11 +12,11 @@ class Solution {
             s1.push(ch);
            }
         }
-    String result = "";
+   StringBuilder result = new StringBuilder();
 
-for (char ch : s1) {
-    result = result + ch;
-}
-return result;
+   for (char ch : s1) {
+    result.append(ch);
+  }
+   return result.toString();
     }
     }
